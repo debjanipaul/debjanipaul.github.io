@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08c0f1fc.chunk.css",
+    "main.js": "/static/js/main.cd34797f.chunk.js",
+    "main.js.map": "/static/js/main.cd34797f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d73748ce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d73748ce.js.map",
+    "static/js/2.2457e914.chunk.js": "/static/js/2.2457e914.chunk.js",
+    "static/js/2.2457e914.chunk.js.map": "/static/js/2.2457e914.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e145e7ade2405118e85f7d9268e1e15e.js": "/precache-manifest.e145e7ade2405118e85f7d9268e1e15e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.08c0f1fc.chunk.css.map": "/static/css/main.08c0f1fc.chunk.css.map",
+    "static/js/2.2457e914.chunk.js.LICENSE.txt": "/static/js/2.2457e914.chunk.js.LICENSE.txt",
+    "static/media/ArcadeCloneGame.png": "/static/media/ArcadeCloneGame.cad93160.png",
+    "static/media/Bootstrap.png": "/static/media/Bootstrap.09aeab84.png",
+    "static/media/BootstrapLandingPage.png": "/static/media/BootstrapLandingPage.9f5fc493.png",
+    "static/media/CSS3.png": "/static/media/CSS3.fbe01551.png",
+    "static/media/RestaurantReviews2.png": "/static/media/RestaurantReviews2.42e129cf.png",
+    "static/media/chefMaker.png": "/static/media/chefMaker.a04aeea7.png",
+    "static/media/colorGame.png": "/static/media/colorGame.2be40143.png",
+    "static/media/express.png": "/static/media/express.d638bd34.png",
+    "static/media/github1.png": "/static/media/github1.c8a83d07.png",
+    "static/media/jQuery.png": "/static/media/jQuery.e4b07805.png",
+    "static/media/jquery.jpg": "/static/media/jquery.7fa98f28.jpg",
+    "static/media/js.png": "/static/media/js.b4cc9b6d.png",
+    "static/media/memeGenerator.png": "/static/media/memeGenerator.30c27024.png",
+    "static/media/memoryGame.png": "/static/media/memoryGame.ae631d24.png",
+    "static/media/mongo.png": "/static/media/mongo.b10b140c.png",
+    "static/media/node.png": "/static/media/node.d42672d4.png",
+    "static/media/portfolioPic.jpg": "/static/media/portfolioPic.b2d32d3f.jpg",
+    "static/media/profilePic2.svg": "/static/media/profilePic2.b61c4fbe.svg",
+    "static/media/react2.png": "/static/media/react2.692adb35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d73748ce.js",
+    "static/js/2.2457e914.chunk.js",
+    "static/css/main.08c0f1fc.chunk.css",
+    "static/js/main.cd34797f.chunk.js"
+  ]
+}
