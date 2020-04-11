@@ -1,6 +1,7 @@
 import React from 'react';
 import PDFViewer from './PDFViewer';
 import PDFJSBackend from './backends/pdfjs.js';
+import MyHtmlResume from './pdfs/MyHtmlResume.pdf';
 
 class Resume extends React.Component {
     render() {
@@ -8,7 +9,7 @@ class Resume extends React.Component {
             <div>
                 <PDFViewer
                     backend={PDFJSBackend}
-                    src='/MyHtmlResume.pdf'
+                    src={MyHtmlResume}
                 />
             </div>
         )
