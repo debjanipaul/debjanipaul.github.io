@@ -1,0 +1,154 @@
+.topMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(#6600ff, #d1b3ff);
+    font-family: 'Roboto', sans-serif;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.burger {
+    color: #00264d;
+    display: none;
+}
+
+.vertical-menu {
+    background-color: #1f1f33;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+}
+
+.name {
+    background: linear-gradient(#6600ff, #d1b3ff);
+    color: #00264d;
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    text-decoration: none;
+    height: 30px;
+    padding: 20px;
+}
+
+.menuLinks {
+    color: #e6e6e6;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 12pt;
+    align-self: center;
+}
+
+.pTop {
+    padding-top: 40%;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons {
+    /* color: rgb(0, 191, 255); */
+    color: #5252cc;
+    font-size: 20px;
+    align-self: center;
+    margin-top: 20%;
+}
+
+.pBot {
+    padding-bottom: 40vh;
+}
+
+.pHeader {
+    padding: 12px;
+}
+
+.socialContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socialIcons {
+    color: #e66465;
+    font-size: 15pt;
+    margin: 5%;
+    margin-top: 45px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .topMenu {
+        width: 100%;
+    }
+    .vertical-menu {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        top: 0;
+    }
+    .menuLinks {
+        padding: 5px;
+        font-size: 8pt;
+    }
+    .socialContainer {
+        display: none;
+    }
+    .burger {
+        display: flex;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: 3%;
+        font-size: 15pt;
+    }
+    .show {
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .topMenu {
+        width: 100%;
+    }
+    .vertical-menu {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        top: 0;
+    }
+    /* .name {
+        display: none;
+    } */
+    .socialContainer {
+        display: none;
+    }
+    .burger {
+        display: flex;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: 3%;
+        font-size: 15pt;
+    }
+    .show {
+        display: flex;
+    }
+    .hide {
+        display: none;
+    }
+}
