@@ -5,6 +5,7 @@ import MyHtmlResume from './pdfs/MyHtmlResume.pdf';
 
 class Resume extends React.Component {
     render() {
+        console.log('*** Resume URL ***: ' + process.env.PUBLIC_URL + '/MyHtmlResume.pdf')
         return (
             <div>
                 <PDFViewer
