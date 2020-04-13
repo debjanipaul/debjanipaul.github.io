@@ -64,10 +64,10 @@ class Header extends React.Component {
                             <Link to="/articles" className="menuLinks">Articles</Link>
                         </div>
 
-                        <div className="iconContainer">
+                        {/* <div className="iconContainer">
                             <i className="far fa-file icons"></i>
                             <Link to="/resume" target="_blank" rel="noopener noreferrer" className="menuLinks">Resume</Link>
-                        </div>
+                        </div> */}
 
                         <div className="iconContainer">
                             <i className="fas fa-id-card-alt icons"></i>
