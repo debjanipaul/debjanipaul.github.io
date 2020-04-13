@@ -9,7 +9,8 @@ class Resume extends React.Component {
             <div>
                 <PDFViewer
                     backend={PDFJSBackend}
-                    src={MyHtmlResume}
+                    src={process.env.PUBLIC_URL + '/MyHtmlResume.pdf'}
+                // src={MyHtmlResume}
                 />
             </div>
         )
